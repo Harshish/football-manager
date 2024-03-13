@@ -33,7 +33,7 @@ export default function RadarGraph({ name, info }) {
             dotSize={10}
             dotColor={{ theme: "background" }}
             dotBorderWidth={2}
-            colors={{ scheme: "nivo" }}
+            colors={{ scheme: "set2" }}
             blendMode="multiply"
             motionConfig="wobbly"
             legends={[

@@ -28,18 +28,19 @@ export default function PlayerData({ data }) {
     enableColumnOrdering: true,
     onRowSelectionChange: setRowSelection,
     state: { rowSelection },
-    /*muiTableBodyProps: {
+    initialState: { density: 'compact', pagination: { pageSize: 5 } },
+    muiTableBodyProps: {
       sx: {
         //stripe the rows, make odd rows a darker color
         "& tr:nth-of-type(odd) > td": {
-          backgroundColor: "#fff",
+          backgroundColor: "#ffffff",
         },
       },
     },
     mrtTheme: (theme) => ({
-      baseBackgroundColor: "#71ca68",
-      selectedRowBackgroundColor: "#e0ec6f",
-    }),*/
+      baseBackgroundColor: "#ecfbff",
+      selectedRowBackgroundColor: "#7ef9c1",
+    }),
   });
 
   useEffect(() => {

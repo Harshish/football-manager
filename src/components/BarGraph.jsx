@@ -15,7 +15,7 @@ export default function BarGraph({ name, info, units = "" }) {
             padding={0.3}
             valueScale={{ type: "linear" }}
             indexScale={{ type: "band", round: true }}
-            colors={{scheme: 'nivo'}}
+            colors={{scheme: 'set2'}}
             colorBy="indexValue"
             borderColor={{
               from: "color",
